@@ -63,7 +63,9 @@ nav a {
   color: white !important;
   padding: 13px 22px;
   border-radius: 30px;
+  text-decoration: none;
 }
+
 
 .primary {
   display: inline-block;

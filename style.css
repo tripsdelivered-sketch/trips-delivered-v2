@@ -33,6 +33,10 @@ body {
 }
 
 .logo img {
+  height: 100px;
+  width: 160px;
+  object-fit: contain;
+} img {
   height: 80px;
   width: auto;
   object-fit: contain;

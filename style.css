@@ -76,11 +76,8 @@ nav a {
 
 .hero {
   padding: 70px 0;
-  background-image: url("IMG_0819 (1).JPG");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} {
+  background: #f8faf9;
+}
   
 
 

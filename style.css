@@ -275,3 +275,8 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+/* Centre process heading */
+.process-section h2 {
+  text-align: center;
+}
+

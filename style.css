@@ -221,21 +221,26 @@ nav {
   border-radius: 18px;
   padding: 18px;
   text-align: center;
-}/* CARD 1 ONLY */
+/* CARD 1 ONLY */
 .process-card:first-child {
-  padding: 14px;
+  padding: 10px 14px 14px;
 }
 
 .process-card:first-child .process-icon img {
-  width: 90px;
+  width: 64px;
   height: auto;
   display: block;
-  margin: 0 auto 8px;
+  margin: 0 auto 2px;
+}
+
+.process-card:first-child h3 {
+  margin: 2px 0 18px;
 }
 
 .process-card:first-child .process-image {
-  height: 155px;
-  margin: 10px 0;
+  height: 180px;
+  margin: 0 0 12px;
+}
 }
 .process-card h3 {
   color: #0f766e;

@@ -244,7 +244,7 @@ nav {
 }
 }
 .process-card h3 {
-    color: #14B8A6;
+    color: #14B8A6 !important;
     font-size: 20px;
     margin: 0 0 8px;
     min-height: 44px;

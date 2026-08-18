@@ -351,6 +351,9 @@ nav {
 .process-image-form img {
   object-fit: contain;
   background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  height: 330px;
 }
 
 /* Mobile */

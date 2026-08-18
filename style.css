@@ -257,16 +257,21 @@ nav {
 
 .process-image {
   width: 100%;
-  height: 220px;
+  height: 320px;
   overflow: hidden;
   border-radius: 14px;
-  margin: 15px 0;
+  margin: 4px 0 12px;
 }
 
 .process-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+.process-card h3 {
+  margin: 0 0 8px;
 }
 
 /* Mobile layout */

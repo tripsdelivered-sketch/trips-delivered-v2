@@ -292,3 +292,79 @@ nav {
   text-align: center;
 }
 
+
+/* ===== FINAL FOUR PROCESS CARDS ===== */
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  align-items: stretch;
+}
+
+.process-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 14px 16px;
+  height: 100%;
+}
+
+.process-copy {
+  min-height: 150px;
+}
+
+.process-card h3 {
+  color: #14B8A6 !important;
+  font-size: 20px;
+  line-height: 1.15;
+  margin: 0 0 14px;
+  font-weight: 700;
+}
+
+.process-card p {
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.process-card .card-subheading {
+  margin-bottom: 12px;
+}
+
+.process-image {
+  margin-top: 14px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.process-image img {
+  width: 100%;
+  max-width: 290px;
+  height: 330px;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  border-radius: 14px;
+}
+
+.process-image-form img {
+  object-fit: contain;
+  background: #ffffff;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-copy {
+    min-height: auto;
+  }
+
+  .process-image img {
+    height: auto;
+    max-width: 420px;
+  }
+}

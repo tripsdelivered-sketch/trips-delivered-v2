@@ -244,9 +244,13 @@ nav {
 }
 }
 .process-card h3 {
-  color: #0f766e;
-  font-size: 18px;
-  margin: 4px 0 8px;
+    color: #0f766e;
+    font-size: 18px;
+    margin: 4px 0 8px;
+    min-height: 44px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .process-card p {

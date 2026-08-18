@@ -278,6 +278,10 @@ nav {
   display: block;
 }
 
+.process-card:nth-child(2) .process-image img {
+  object-position: center top;
+}
+
 .process-card h3 {
   margin: 0 0 8px;
 }

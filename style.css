@@ -284,6 +284,9 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+.process-card h3 {
+  color: #14B8A6 !important;
+}
 /* Centre process heading */
 .process-section h2 {
   text-align: center;

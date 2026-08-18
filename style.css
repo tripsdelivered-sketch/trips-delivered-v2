@@ -280,6 +280,8 @@ nav {
 
 .process-card:nth-child(2) .process-image img {
   object-position: center top;
+  transform: scale(1.12);
+  transform-origin: top center;
 }
 
 .process-card h3 {

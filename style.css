@@ -1165,3 +1165,398 @@ nav {
     font-size: 25px;
   }
 }
+
+/* =========================================================
+   TRIPS DELIVERED - REMAINING WEBSITE
+   Premium Teal
+   ========================================================= */
+
+.td-section {
+  padding: 78px 0;
+  background: #ffffff;
+}
+
+.td-soft {
+  background: #f7fbfa;
+}
+
+.td-heading {
+  max-width: 760px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.td-eyebrow {
+  display: block;
+  margin-bottom: 10px;
+  color: #0f766e;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.td-heading h2,
+.td-split-intro h2,
+.td-final-cta h2 {
+  margin: 0 0 16px;
+  color: #1f2933;
+  font-size: 36px;
+  line-height: 1.15;
+}
+
+.td-heading p,
+.td-split-intro p {
+  color: #315d5a;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+
+/* WHAT YOU GET */
+
+.td-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.td-feature {
+  padding: 28px 22px;
+  background: #ffffff;
+  border: 1px solid #d7ece9;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.td-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin: 0 auto 18px;
+  background: #ccfbf1;
+  border-radius: 50%;
+  color: #0f766e;
+  font-weight: 800;
+}
+
+.td-feature h3 {
+  margin: 0 0 10px;
+  color: #0f766e;
+  font-size: 19px;
+}
+
+.td-feature p {
+  margin: 0;
+  color: #315d5a;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+
+/* DESTINATIONS */
+
+.td-split {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.td-split-intro {
+  max-width: 520px;
+}
+
+.td-split-intro p {
+  margin: 0 0 16px;
+}
+
+.td-choice-list {
+  display: grid;
+  gap: 14px;
+}
+
+.td-choice {
+  display: flex;
+  gap: 18px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d7ece9;
+  border-radius: 16px;
+}
+
+.td-choice > span {
+  display: flex;
+  flex: 0 0 38px;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: #ccfbf1;
+  border-radius: 50%;
+  color: #0f766e;
+  font-weight: 800;
+}
+
+.td-choice h3 {
+  margin: 0 0 6px;
+  color: #0f766e;
+  font-size: 18px;
+}
+
+.td-choice p {
+  margin: 0;
+  color: #315d5a;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/* ACCOMMODATION */
+
+.td-accommodation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.td-info-card {
+  padding: 28px 24px;
+  border: 1px solid #d7ece9;
+  border-radius: 18px;
+  background: #ffffff;
+}
+
+.td-info-card h3 {
+  margin: 0 0 10px;
+  color: #0f766e;
+  font-size: 19px;
+}
+
+.td-info-card p {
+  margin: 0;
+  color: #315d5a;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.td-note {
+  max-width: 850px;
+  margin: 28px auto 0;
+  padding: 18px 22px;
+  background: #ccfbf1;
+  border-radius: 14px;
+  color: #0f766e;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.55;
+  text-align: center;
+}
+
+
+/* EXTRAS */
+
+.td-extras {
+  background: #ffffff;
+}
+
+.td-extra-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.td-extra {
+  padding: 25px 20px;
+  background: #f7fbfa;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.td-extra h3 {
+  margin: 0 0 9px;
+  color: #0f766e;
+  font-size: 18px;
+}
+
+.td-extra p {
+  margin: 0;
+  color: #315d5a;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/* FAQ */
+
+.td-faq-container {
+  max-width: 900px;
+}
+
+.td-faq {
+  display: grid;
+  gap: 12px;
+}
+
+.td-faq details {
+  background: #ffffff;
+  border: 1px solid #d7ece9;
+  border-radius: 14px;
+  padding: 0 20px;
+}
+
+.td-faq summary {
+  padding: 19px 0;
+  color: #0f766e;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.td-faq details p {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #315d5a;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+/* FINAL PURCHASE CTA */
+
+.td-final-cta {
+  padding: 75px 24px;
+  background: #ccfbf1;
+  text-align: center;
+}
+
+.td-final-cta .container {
+  max-width: 760px;
+}
+
+.td-final-cta p {
+  max-width: 620px;
+  margin: 0 auto 26px;
+  color: #315d5a;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.td-final-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #0f766e;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.td-final-button:hover {
+  background: #115e59;
+}
+
+.td-final-price {
+  margin-top: 18px;
+  color: #dc2626;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.td-final-note {
+  margin-top: 4px;
+  color: #315d5a;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .td-feature-grid,
+  .td-extra-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .td-accommodation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .td-split {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .td-split-intro {
+    max-width: none;
+    text-align: center;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .td-section {
+    padding: 52px 0;
+  }
+
+  .td-heading {
+    margin-bottom: 30px;
+  }
+
+  .td-heading h2,
+  .td-split-intro h2,
+  .td-final-cta h2 {
+    font-size: 28px;
+  }
+
+  .td-heading p,
+  .td-split-intro p,
+  .td-final-cta p {
+    font-size: 16px;
+  }
+
+  .td-feature-grid,
+  .td-extra-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .td-feature,
+  .td-info-card {
+    padding: 22px 18px;
+  }
+
+  .td-choice {
+    padding: 18px 16px;
+  }
+
+  .td-choice > span {
+    flex-basis: 34px;
+    width: 34px;
+    height: 34px;
+  }
+
+  .td-final-cta {
+    padding: 55px 20px;
+  }
+
+  .td-final-button {
+    width: 100%;
+    max-width: 330px;
+  }
+
+  .td-final-price {
+    font-size: 26px;
+  }
+}

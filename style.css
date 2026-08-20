@@ -1560,3 +1560,110 @@ nav {
     font-size: 26px;
   }
 }
+
+/* =========================================================
+   FINAL LAYOUT FIX - STACK WEBSITE SECTIONS VERTICALLY
+   ========================================================= */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Keep every new section inside the normal page width */
+.td-section,
+.td-final-cta {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  clear: both;
+}
+
+/* If the new sections are sitting inside the process grid,
+   make each one span the full row */
+.process-grid > .td-section,
+.process-grid > .td-final-cta {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+/* Keep the content centred like the rest of the website */
+.td-section > .container,
+.td-final-cta > .container {
+  width: min(1200px, 92%);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Prevent inner grids from forcing the page wider */
+.td-feature-grid,
+.td-split,
+.td-choice-list,
+.td-accommodation-grid,
+.td-extra-grid,
+.td-faq {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.td-feature,
+.td-choice,
+.td-info-card,
+.td-extra,
+.td-faq details {
+  min-width: 0;
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+
+  .td-feature-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .td-split {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  }
+
+  .td-accommodation-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .td-extra-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+
+  .td-feature-grid,
+  .td-extra-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .td-split,
+  .td-accommodation-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  .td-feature-grid,
+  .td-extra-grid,
+  .td-accommodation-grid,
+  .td-split {
+    grid-template-columns: 1fr;
+  }
+}

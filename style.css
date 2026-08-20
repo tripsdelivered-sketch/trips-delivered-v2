@@ -278,6 +278,12 @@ nav {
   display: block;
 }
 
+/* CARD 1 ONLY - zoom towards laptop travel tabs */
+.process-card:first-child .process-image img {
+  transform: scale(1.35);
+  transform-origin: 70% 55%;
+}
+
 .process-card:nth-child(2) .process-image img {
   object-position: center top;
   transform: translateY(-10px) scale(1.12);
